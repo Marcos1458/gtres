@@ -1,8 +1,8 @@
 import { Header } from './components/Header'
 import './App.css'
-import Home from './pages/Home';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Contact from './Contact';
+import Contact from './pages/Contact';
+import Home from './pages/Home';
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       >
         <a href="/#equipe">Equipe</a>
         <a href="#aprendizado">Aprendizado</a>
+        <a href="/#Contact">Contato</a>
       </Header>
       
       <main className='container'>
